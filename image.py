@@ -51,7 +51,7 @@ class Photo():
 #za pomocą funkcji photo_convert program zmienia rozdzielczość każdego zdjęcia na jednakową a także zmienia nazwę zdjęciom,
 #oraz zmienia ich lokalizację do odpowienich folderów (bright, disputed, dark)
 
-for i in range(1,16):
+for i in range(10,11):
     photo=Photo(f"p{i}.jpg")
     print(photo.analizer())
     photo.photo_convert(f"p{i}.jpg")
